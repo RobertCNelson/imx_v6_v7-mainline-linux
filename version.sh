@@ -2,7 +2,7 @@
 #
 ARCH=$(uname -m)
 
-config="multi_v7_defconfig"
+config="imx_v6_v7_defconfig"
 
 #toolchain="gcc_linaro_eabi_4_8"
 #toolchain="gcc_linaro_eabi_4_9"
@@ -14,7 +14,7 @@ toolchain="gcc_linaro_gnueabihf_4_9"
 #Kernel/Build
 KERNEL_REL=4.2
 KERNEL_TAG=${KERNEL_REL}
-BUILD=multiv7-r0
+BUILD=imxv6v7-r0
 
 #v3.X-rcX + upto SHA
 #prev_KERNEL_SHA=""
