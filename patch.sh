@@ -352,6 +352,8 @@ backports () {
 ###
 #backports
 
+${git} "${DIR}/patches/0001-ARM-imx7d-pico-pi.dts-add-default-stdout-path.patch"
+
 packaging () {
 	echo "dir: packaging"
 	#regenerate="enable"
