@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.10.0-rc1 Kernel Configuration
+# Linux/arm 5.10.0-rc2 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 9.2-2019.12 (arm-9.10)) 9.2.1 20191025"
 CONFIG_CC_IS_GCC=y
@@ -1474,13 +1474,6 @@ CONFIG_EEPROM_AT25=y
 # CONFIG_SENSORS_LIS3_SPI is not set
 # CONFIG_SENSORS_LIS3_I2C is not set
 # CONFIG_ALTERA_STAPL is not set
-
-#
-# Intel MIC & related support
-#
-# CONFIG_VOP_BUS is not set
-# end of Intel MIC & related support
-
 # CONFIG_ECHO is not set
 # CONFIG_MISC_ALCOR_PCI is not set
 # CONFIG_MISC_RTSX_PCI is not set
@@ -2564,6 +2557,7 @@ CONFIG_GPIOLIB_IRQCHIP=y
 CONFIG_GPIO_SYSFS=y
 CONFIG_GPIO_CDEV=y
 CONFIG_GPIO_CDEV_V1=y
+CONFIG_GPIO_GENERIC=y
 
 #
 # Memory mapped GPIO drivers
@@ -2579,7 +2573,7 @@ CONFIG_GPIO_CDEV_V1=y
 # CONFIG_GPIO_LOGICVC is not set
 # CONFIG_GPIO_MB86S7X is not set
 # CONFIG_GPIO_MPC8XXX is not set
-# CONFIG_GPIO_MXC is not set
+CONFIG_GPIO_MXC=y
 # CONFIG_GPIO_SAMA5D2_PIOBU is not set
 # CONFIG_GPIO_SIFIVE is not set
 CONFIG_GPIO_SIOX=m
