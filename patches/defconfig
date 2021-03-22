@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.12.0-rc3 Kernel Configuration
+# Linux/arm 5.12.0-rc4 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 10.2-2020.11 (arm-10.16)) 10.2.1 20201103"
 CONFIG_CC_IS_GCC=y
@@ -4336,7 +4336,6 @@ CONFIG_SND_SOC_ES8328_SPI=y
 CONFIG_SND_SOC_SGTL5000=y
 # CONFIG_SND_SOC_SIMPLE_AMPLIFIER is not set
 # CONFIG_SND_SOC_SIMPLE_MUX is not set
-# CONFIG_SND_SOC_SIRF_AUDIO_CODEC is not set
 # CONFIG_SND_SOC_SPDIF is not set
 # CONFIG_SND_SOC_SSM2305 is not set
 # CONFIG_SND_SOC_SSM2602_SPI is not set
@@ -5134,6 +5133,7 @@ CONFIG_SYNC_FILE=y
 
 # CONFIG_AUXDISPLAY is not set
 # CONFIG_UIO is not set
+# CONFIG_VFIO is not set
 # CONFIG_VIRT_DRIVERS is not set
 CONFIG_VIRTIO_MENU=y
 # CONFIG_VIRTIO_PCI is not set
