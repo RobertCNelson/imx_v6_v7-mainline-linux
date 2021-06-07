@@ -226,6 +226,7 @@ gcc_toolchain () {
 		datestamp="2020.10.3.0-aarch64-linux-gcc"
 
 		binary="bin/aarch64-linux-"
+		;;
 	gcc_11_aarch64)
 		#
 		#https://mirrors.edge.kernel.org/pub/tools/crosstool/files/bin/x86_64/11.1.0/x86_64-gcc-11.1.0-nolibc-aarch64-linux.tar.xz
