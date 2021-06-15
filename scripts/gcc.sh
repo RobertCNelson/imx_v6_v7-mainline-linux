@@ -76,8 +76,8 @@ gcc_toolchain () {
 	#https://mirrors.edge.kernel.org/pub/tools/crosstool/files/bin/x86_64/
 	gcc6="6.5.0"
 	gcc7="7.5.0"
-	gcc8="8.4.0"
-	gcc9="9.3.0"
+	gcc8="8.5.0"
+	gcc9="9.4.0"
 	gcc10="10.3.0"
 	gcc11="11.1.0"
 
