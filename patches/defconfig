@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.2.0-rc4 Kernel Configuration
+# Linux/arm 6.2.0-rc5 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 12.2.0"
 CONFIG_CC_IS_GCC=y
@@ -4313,7 +4313,6 @@ CONFIG_DRM_MXSFB=y
 # CONFIG_DRM_PL111 is not set
 # CONFIG_DRM_TVE200 is not set
 # CONFIG_DRM_LIMA is not set
-# CONFIG_DRM_PANFROST is not set
 # CONFIG_DRM_MCDE is not set
 # CONFIG_DRM_TIDSS is not set
 # CONFIG_DRM_GUD is not set
