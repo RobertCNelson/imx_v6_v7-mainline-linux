@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #
-# Copyright (c) 2009-2022 Robert Nelson <robertcnelson@gmail.com>
+# Copyright (c) 2009-2023 Robert Nelson <robertcnelson@gmail.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -199,7 +199,7 @@ ${git} "${DIR}/patches/0001-ARM-imx7d-pico-pi.dts-add-default-stdout-path.patch"
 packaging () {
 	#do_backport="enable"
 	if [ "x${do_backport}" = "xenable" ] ; then
-		backport_tag="v5.10.31"
+		backport_tag="v5.16.7"
 
 		subsystem="bindeb-pkg"
 		#regenerate="enable"
