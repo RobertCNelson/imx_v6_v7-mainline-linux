@@ -193,8 +193,6 @@ backports () {
 ###
 #backports
 
-${git} "${DIR}/patches/0001-ARM-imx7d-pico-pi.dts-add-default-stdout-path.patch"
-
 packaging () {
 	#do_backport="enable"
 	if [ "x${do_backport}" = "xenable" ] ; then
