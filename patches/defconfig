@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 6.14.0-rc3 Kernel Configuration
+# Linux/arm 6.14.0-rc4 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-linux-gnueabi-gcc (GCC) 14.2.0"
 CONFIG_CC_IS_GCC=y
@@ -5894,7 +5894,6 @@ CONFIG_VIDEO_IMX_MEDIA=y
 # CONFIG_GPIB is not set
 # CONFIG_GOLDFISH is not set
 # CONFIG_CHROME_PLATFORMS is not set
-# CONFIG_CZNIC_PLATFORMS is not set
 # CONFIG_MELLANOX_PLATFORM is not set
 CONFIG_HAVE_CLK=y
 CONFIG_HAVE_CLK_PREPARE=y
